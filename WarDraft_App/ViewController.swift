@@ -9,11 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var registerButton: UIButton!
+    @IBOutlet weak var loginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func onRegisterButtonTap(_ sender: Any) {
+        
+    }
+    
+    @IBAction func onLoginButtonTap(_ sender: Any) {
+        
+    }
+    
 }
 
