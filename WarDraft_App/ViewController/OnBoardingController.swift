@@ -8,7 +8,7 @@
 import UIKit
 
 class OnBoardingController: UIViewController {
-
+    
     @IBOutlet weak var registerButton: UIButton!
     @IBOutlet weak var loginButton: UIButton!
     override func viewDidLoad() {
@@ -17,11 +17,19 @@ class OnBoardingController: UIViewController {
     }
     
     @IBAction func onRegisterButtonTap(_ sender: Any) {
-        
-    }
+        pushController(withIdentifier: "RegisterController")    }
     
     @IBAction func onLoginButtonTap(_ sender: Any) {
-        
+        pushController(withIdentifier: "LoginController")
+    }
+    
+    func pushController(withIdentifier identifier: String) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        guard let destination = storyboard.instantiateViewController(withIdentifier: identifier) as? UIViewController else {
+            print("ViewController with identifier \(identifier) not found.")
+            return
+        }
+        navigationController?.pushViewController(destination, animated: true)
     }
     
 }

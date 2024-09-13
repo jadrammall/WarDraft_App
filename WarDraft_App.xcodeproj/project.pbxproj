@@ -14,7 +14,7 @@
 		9DBAD85A2C942DC600D28972 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9DBAD8592C942DC600D28972 /* Base */; };
 		9DBAD85C2C942DC800D28972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBAD85B2C942DC800D28972 /* Assets.xcassets */; };
 		9DBAD85F2C942DC800D28972 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9DBAD85E2C942DC800D28972 /* Base */; };
-		9DBAD8672C94445100D28972 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBAD8662C94445100D28972 /* LoginViewController.swift */; };
+		9DBAD8672C94445100D28972 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBAD8662C94445100D28972 /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		9DBAD85B2C942DC800D28972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DBAD85E2C942DC800D28972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DBAD8602C942DC800D28972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DBAD8662C94445100D28972 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9DBAD8662C94445100D28972 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 		9DBAD8692C94447B00D28972 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				9DBAD8662C94445100D28972 /* LoginViewController.swift */,
 				9DBAD8562C942DC600D28972 /* OnBoardingController.swift */,
+				9DBAD8662C94445100D28972 /* LoginController.swift */,
 				9D27E5CB2C944AAB00B18018 /* RegisterController.swift */,
 			);
 			path = ViewController;
@@ -161,7 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D27E5CC2C944AAB00B18018 /* RegisterController.swift in Sources */,
-				9DBAD8672C94445100D28972 /* LoginViewController.swift in Sources */,
+				9DBAD8672C94445100D28972 /* LoginController.swift in Sources */,
 				9DBAD8572C942DC600D28972 /* OnBoardingController.swift in Sources */,
 				9DBAD8532C942DC600D28972 /* AppDelegate.swift in Sources */,
 				9DBAD8552C942DC600D28972 /* SceneDelegate.swift in Sources */,
