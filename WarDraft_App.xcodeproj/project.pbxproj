@@ -13,6 +13,7 @@
 		9DBAD85A2C942DC600D28972 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9DBAD8592C942DC600D28972 /* Base */; };
 		9DBAD85C2C942DC800D28972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBAD85B2C942DC800D28972 /* Assets.xcassets */; };
 		9DBAD85F2C942DC800D28972 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9DBAD85E2C942DC800D28972 /* Base */; };
+		9DBAD8672C94445100D28972 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBAD8662C94445100D28972 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9DBAD85B2C942DC800D28972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DBAD85E2C942DC800D28972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DBAD8602C942DC800D28972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DBAD8662C94445100D28972 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		9DBAD8512C942DC600D28972 /* WarDraft_App */ = {
 			isa = PBXGroup;
 			children = (
-				9DBAD8522C942DC600D28972 /* AppDelegate.swift */,
-				9DBAD8542C942DC600D28972 /* SceneDelegate.swift */,
-				9DBAD8562C942DC600D28972 /* ViewController.swift */,
+				9DBAD8682C94446200D28972 /* Root */,
+				9DBAD8692C94447B00D28972 /* ViewController */,
 				9DBAD8582C942DC600D28972 /* Main.storyboard */,
 				9DBAD85B2C942DC800D28972 /* Assets.xcassets */,
 				9DBAD85D2C942DC800D28972 /* LaunchScreen.storyboard */,
 				9DBAD8602C942DC800D28972 /* Info.plist */,
 			);
 			path = WarDraft_App;
+			sourceTree = "<group>";
+		};
+		9DBAD8682C94446200D28972 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				9DBAD8522C942DC600D28972 /* AppDelegate.swift */,
+				9DBAD8542C942DC600D28972 /* SceneDelegate.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		9DBAD8692C94447B00D28972 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9DBAD8662C94445100D28972 /* LoginViewController.swift */,
+				9DBAD8562C942DC600D28972 /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DBAD8672C94445100D28972 /* LoginViewController.swift in Sources */,
 				9DBAD8572C942DC600D28972 /* ViewController.swift in Sources */,
 				9DBAD8532C942DC600D28972 /* AppDelegate.swift in Sources */,
 				9DBAD8552C942DC600D28972 /* SceneDelegate.swift in Sources */,
