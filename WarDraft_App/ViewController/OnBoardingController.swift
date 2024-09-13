@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class OnBoardingController: UIViewController {
 
     @IBOutlet weak var registerButton: UIButton!
     @IBOutlet weak var loginButton: UIButton!
