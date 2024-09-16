@@ -17,7 +17,8 @@ class OnBoardingController: UIViewController {
     }
     
     @IBAction func onRegisterButtonTap(_ sender: Any) {
-        pushController(withIdentifier: "RegisterController")    }
+        pushController(withIdentifier: "RegisterController")
+    }
     
     @IBAction func onLoginButtonTap(_ sender: Any) {
         pushController(withIdentifier: "LoginController")
@@ -25,10 +26,7 @@ class OnBoardingController: UIViewController {
     
     func pushController(withIdentifier identifier: String) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        guard let destination = storyboard.instantiateViewController(withIdentifier: identifier) as? UIViewController else {
-            print("ViewController with identifier \(identifier) not found.")
-            return
-        }
+        let destination = storyboard.instantiateViewController(withIdentifier: identifier)
         navigationController?.pushViewController(destination, animated: true)
     }
     
